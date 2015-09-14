@@ -1,2 +1,2 @@
-# Zimplistic-droid
-Zimplistic-droid
+# Zimplistic-android
+Zimplistic-android

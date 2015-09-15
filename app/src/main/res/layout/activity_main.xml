@@ -8,10 +8,15 @@
     android:layout_width="fill_parent"
     android:orientation="vertical"
     android:layout_height="wrap_content">
-    <EditText
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText" />
+        android:textAlignment="center"
+        android:text="Welcome to Zimplistic , use follwing drop down to selete command :"
+        android:layout_height="wrap_content" />
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/editText" />-->
 
     <Spinner
         android:layout_width="match_parent"

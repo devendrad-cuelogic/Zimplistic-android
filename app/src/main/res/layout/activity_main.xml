@@ -11,18 +11,12 @@
     <TextView
         android:layout_width="match_parent"
         android:textAlignment="center"
-        android:text="Welcome to Zimplistic , use follwing drop down to selete command :"
+        android:text="Welcome to Zimplistic , use following texg box to enter command, available commands are ON DEVICE, OFF DEVICE, COOK num_of_rotis"
         android:layout_height="wrap_content" />
-    <!--<EditText-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/editText" />-->
-
-    <Spinner
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner"
-        android:layout_gravity="center_horizontal" />
+        android:id="@+id/editText" />
 
     <Button
         android:layout_width="wrap_content"
@@ -37,7 +31,8 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
         <LinearLayout
-            android:background="@android:color/holo_green_dark"
+
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_weight="0.5"
             android:layout_height="fill_parent"
@@ -49,7 +44,7 @@
                 <!--/>-->
         </LinearLayout>
         <LinearLayout
-            android:background="@android:color/holo_orange_dark"
+
             android:layout_width="match_parent"
             android:layout_weight="0.5"
             android:layout_height="fill_parent"></LinearLayout>

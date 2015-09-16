@@ -14,7 +14,7 @@ A simple android native app using socket.io android client lib for realtime app
 - The app has interface to send commands to rotimatic machine emulator
 - Please see Available commands to see commands 
 
-## Available commands to send to machine
+## Available Commands
 - `ON DEVICE`
 - `OFF DEVICE`
 - `COOK <num_of_rotis>`
